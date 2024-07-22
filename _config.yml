@@ -18,5 +18,11 @@ nav_links:
     url: /about/
   - title: Research
     url: /research/
+  - title: Hobbies
+    url: /hobbies/
+  - title: Profession
+    url: /profession/
+  - title: Projects
+    url: /projects/
 
 

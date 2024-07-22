@@ -10,13 +10,13 @@ Since being a research scholar at IIIT-B and final year of PES University, I hav
 
 # Links to research webpages:
 
-1. Google Scholar: https://scholar.google.com/citations?user=Vk1L-_0AAAAJ&hl=en
+1. <a href="https://scholar.google.com/citations?user=Vk1L-_0AAAAJ&hl=en" class="highlighted-link">Google Scholar</a>
 
-2. ORCID: https://orcid.org/0009-0004-6391-8668
+2. <a href="https://orcid.org/0009-0004-6391-8668" class="highlighted-link">ORCID</a>
 
-3. Research Gate: https://www.researchgate.net/profile/Prateeth-Rao
+3. <a href="https://www.researchgate.net/profile/Prateeth-Rao" class="highlighted-link">Research Gate</a>
 
-4. IEEE xplore: https://ieeexplore.ieee.org/author/37089749198
+4. <a href="https://ieeexplore.ieee.org/author/37089749198" class="highlighted-link">IEEE xplore</a>
 
 
 # Conference papers:
