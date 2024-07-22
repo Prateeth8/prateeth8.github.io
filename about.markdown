@@ -4,15 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I am Prateeth Rao, an MS research student at IIIT-Bangalore in Data Science domain. I am a passionate researcher in the field of computer vision.
+I have worked and published multiple novel findings as conference papers in reputed conferences. I currently explore and research regarding machine perception, NeRF, Visual SLAM and deep learning.
+I have mentored many students in the field of computer vision and deep learning. I am also a reviewer in IEEE conferences, was a part of TPC for IEEE CONECCT 2024. I hold a bachelor's in ECE from PES University with a CGPA of 8.5/10.
