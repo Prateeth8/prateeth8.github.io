@@ -13,4 +13,10 @@ github_username:  Prateeth8
 # Build settings
 theme: minima
 
+nav_links:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+
 
