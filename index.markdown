@@ -6,7 +6,6 @@ layout: home
 title: Welcome to my Github Webpage
 ---
 
-# Welcome to My Personal Website
 
 Hello! I'm Prateeth Rao, and this is my personal website where you can learn more about my background, interests, and professional work.
 
