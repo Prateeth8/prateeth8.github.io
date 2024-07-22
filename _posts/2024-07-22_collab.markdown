@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Looking for collaborators"
+date:   2024-07-22 09:30 +0530
+categories: jekyll update
+---
+I have been working in computer vision for a while now, I have identified certain topics that interests me a lot to learn and work on. I have been understanding to update my github with new open source projects from the past week.
+
+I have not been finding much time to work and implement on each new topic that interests me, hence looking for collaborations regarding the same.
+
+I am open to collaborations in the following topics:
+
+1. Understanding and implementing various visual SLAM architectures in python.
+2. Deep Learning for Sustainable energy systems.
+3. Noise corrections in videos through deep learning.
+4. Knowledge distillation and NeRF
+5. Implementing Deep Learning architectures on smartphones and low level hardware.
