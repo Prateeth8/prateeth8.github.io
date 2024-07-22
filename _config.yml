@@ -2,12 +2,14 @@ title: Prateeth Rao's github webpage
 email: prateeth.rao@iiitb.ac.in
 description: >- # this means to ignore newlines until "baseurl:"
   Graduate student at IIIT-B working in the field of computer vision, graphics and deep learning. 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://prateeth8.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 LinkedIn_username: Prateeth Rao
 github_username:  Prateeth8
 
 # Build settings
 theme: minima
+
+markdown: kramdown
 
 nav_links:
   - title: Home
