@@ -65,7 +65,7 @@
                 </div>
                 <div class="md:w-3/4 text-center md:text-left md:pl-10">
                     <h1 class="text-5xl md:text-6xl font-extrabold text-gray-800 mb-2" style="font-family: 'Roboto Slab', serif;">Prateeth Rao</h1>
-                    <p class="text-2xl text-gray-700 font-semibold mb-3">MSR at IIIT-B</p>
+                    <p class="text-2xl text-gray-700 font-semibold mb-3">MS by Research at IIIT-B</p>
                     <p class="text-xl md:text-2xl text-teal-600 font-medium">Researcher in 3D Computer Vision, Deep Learning, Robotics and GIS</p>
                 </div>
             </div>
@@ -77,24 +77,24 @@
             <div class="grid md:grid-cols-3 gap-8 items-start">
                 <div class="md:col-span-2 text-lg leading-relaxed">
                     <p class="mb-4">
-                        Hello! I'm a Master's student at IIIT-B, deeply passionate about the intersections of Machine Perception, Deep Learning, 3D Graphics, and GIS. My main research adventure involves boosting the performance of Visual SLAM systems, making them more robust and reliable.
+                        I am a Master’s student at IIIT-Bangalore with research interests spanning Machine Perception, Deep Learning, 3D Vision, and Geospatial Intelligence. My work focuses on advancing Visual Odometry (VO) to improve the robustness and reliability of modern SLAM systems, particularly under challenging real-world conditions.
                     </p>
                     <p class="mb-4">
                         I'm always excited to explore new frontiers. Currently, I'm diving into how we can combine radar and camera data for underwater robots, developing smarter autonomous trucks, and using satellite technology to help protect our environment.
                     </p>
                     <p>
-                        When I'm not working with code or data, you'll find me practicing Yoga, tending to my garden, or unwinding with a good puzzle. I also have a love for music of all kinds, from Classical and Bollywood to EDM.
+                        Beyond research, I maintain a strong personal interest in Yoga, caring for plants, and music across genres including Classical, Bollywood, and EDM. I am also deeply curious about ancient knowledge systems and history. I enjoy exploring ancient architecture, studying historical texts, and understanding cultural evolution through archaeological and literary perspectives. In parallel, I take an educational interest in Ayurvedic and homeopathic traditions, particularly from the viewpoint of learning about trees, medicinal plants, and their historical significance.
                     </p>
                 </div>
                 <div class="card p-6 text-center">
                     <h3 class="text-xl font-semibold mb-4">Education</h3>
                     <div class="text-left">
                         <p class="font-bold">M.S in Data Science</p>
-                        <p class="text-sm text-gray-600">IIIT-B, Bengaluru (2023-2025)</p>
-                        <p class="text-sm text-gray-500">GPA: 3.7/4.0</p>
+                        <p class="text-sm text-gray-600">IIIT-B, Bengaluru (Aug 2023-Mar 2025)</p>
+                        <p class="text-sm text-gray-500">GPA: 3.75/4.0</p>
                         <hr class="my-4">
                         <p class="font-bold">B.Tech in ECE</p>
-                        <p class="text-sm text-gray-600">PES University, Bengaluru (2019-2023)</p>
+                        <p class="text-sm text-gray-600">PES University, Bengaluru (Aug 2019- May 2023)</p>
                         <p class="text-sm text-gray-500">GPA: 8.5/10.0</p>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                     </div>
                     <div class="skill-box">
                         <h3 class="text-2xl font-bold mb-4 text-teal-600">Interests</h3>
-                        <p class="text-lg">Visual SLAM, Radar 3D reconstruction, Deep Learning (ViT based), 3D graphics, Latent Spaces in Gen AI, Spatio temporal GIS</p>
+                        <p class="text-lg">Scene Graphs and VLA in Loop Closures, Graph Based Visual Odometry, Multimodal 3D reconstruction, Temporal Forecasting in GIS, Denosing Diffusion Probabilitic models for 6G, Picking Cashew using Manipulators on Drones</p>
                     </div>
                 </div>
              </div>
@@ -174,26 +174,32 @@
             <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
                 <div class="card">
                     <div class="card-content">
-                        <h3 class="text-lg font-bold">Python V-SLAM Algorithm (Ongoing Thesis)</h3>
-                        <p class="mt-2 text-base">My thesis, 'Leveraging Geometric Priors for Robust Visual Odometry in 3D Reconstruction', involves a deep dive into Visual SLAM. I'm implementing state-of-the-art algorithms for keypoint matching, predicting 6D camera pose using differential algorithms over RANSAC/USAC, and using Delaunay triangulation to project 2D points to 3D, minimized by Reprojection error. Absolute pose is found via the PnP algorithm and verified with ATE calculations.</p>
+                        <h3 class="text-lg font-bold">Noise Modeling in Dense Matching with DDPM(Thesis Extension)</h3>
+                        <p class="mt-2 text-base">Modeling Noise in Dense Matching as a Gaussian Noise problem to be learnt by Graph/Transformer based DDPM models.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="text-lg font-bold">Python V-SLAM Algorithm (Submitted Thesis)</h3>
+                        <p class="mt-2 text-base">My thesis, 'GRAPH-BASED RELATIVE POSE ESTIMATION WITH EPIPOLAR GEOMETRY SUPERVISION FOR VISUAL SLAM', involves a deep dive into Visual SLAM. The thesis highlights learning an Approximtion to 8-point method using in Pose estimation from essential matrix using graph learning methods in camera normalized space. Composite Objective loss function containing Epipolar Supervision loss, Scale Flow loss, heading angle loss and MSE of predicted quaternions and translation vectors. Minimizing objective function yeilds a similar minimization of Ae=0 on epipolar contraints. Compared with existing Spatial Pose regression models to highlight superiority of epipolar geometry in finding motion embeddings.  </p>
                     </div>
                 </div>
                  <div class="card">
                     <div class="card-content">
-                        <h3 class="text-lg font-bold">Python Structure from Motion (SfM) Algorithm</h3>
-                        <p class="mt-2 text-base">Implemented the SfM pipeline as described in the "SFM revisited" paper using standard COLMAP datasets. While the paper uses a Multi-View Stereo (MVS) algorithm for matching, my implementation uses a Deep-learning-based View Stereo (DVS) approach, offering a modern take on the classic pipeline.</p>
+                        <h3 class="text-lg font-bold">Deployment of Various Global Path Planning methods on Self Contrained environment</h3>
+                        <p class="mt-2 text-base">Global Path planners such as Djikstra, A*, D*, RRT, RRT* are used in path planning from start node to goal node by finding the shortest path between the nodes. The project also highlights different improvements to standard path planning algorithms.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <h3 class="text-lg font-bold">Dynamic Mobile Robot Navigation in ROS</h3>
-                        <p class="mt-2 text-base">This project involved simulating a mobile robot navigating a 2D map with both static and dynamic obstacles. I utilized ROS for control, Gazebo for physics simulation, and advanced deep learning techniques like semantic segmentation and keypoint estimation for environment perception. The research was published at IEEE CONECCT 2024.</p>
+                        <p class="mt-2 text-base">This project involved simulating a mobile robot navigating a 2D map with both static and dynamic obstacles. I utilized ROS for control, Gazebo for physics simulation, and advanced deep learning techniques like semantic segmentation and keypoint estimation for environment perception. The research was to find 3 possible locations on the static map using semantic segmentation and later perform triangulation (find 3D depth) for navigation.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-content">
                         <h3 class="text-lg font-bold">Road Width Estimation using GEE & Deep Learning</h3>
-                        <p class="mt-2 text-base">Collected and manually annotated geospatial data from Google Earth Engine (GEE) along a national highway. I trained a deep residual neural network to perform precise road segmentation from this data, enabling accurate estimation of road width—a key task in infrastructure monitoring and analysis.</p>
+                        <p class="mt-2 text-base">Collected and manually annotated geospatial data from Google Earth Engine (GEE) along a national highway. I trained a deep residual U-Net neural network to perform precise road segmentation from this data, enabling accurate estimation of road width—a key task in infrastructure monitoring and analysis.It was observed that while Google Earth provided width was 6m when compared to my method 3.5m closest to actual ground truth which was 3m.</p>
                     </div>
                 </div>
             </div>
@@ -203,6 +209,8 @@
         <section id="publications" class="py-16 bg-gray-100 -mx-6 px-6 rounded-lg">
             <h2 class="section-title">Research Papers</h2>
             <ul class="space-y-4 list-disc list-inside max-w-4xl mx-auto">
+                <li><strong>"Diffusion Policy on Dense Matching with Epipolar Supervision"</strong> yet to be submitted to ECCV </li>
+                <li><strong>"Spectral Graph Learning for Epipolar Relative Pose Estimation in Visual SLAM"</strong>  yet to be submitted to IJCV, Prateeth Rao and Sachit Rao. </li>
                 <li><strong>"Intelligent Navigation Tactics for Differential Drive Robots: Expanding Boundaries"</strong> published at IEEE CONECCT 2024.</li>
                 <li><strong>"Channel Estimation for mmWave MIMO using Deep Residual Learning"</strong> published at IEEE GCITC 2023.</li>
                 <li><strong>"Advancements in Semantic Skin Lesion Segmentation: A Comparative Study with YOLOv8 for Accurate Skin Lesion Segmentation"</strong> published at IEEE GCITC 2023.</li>
