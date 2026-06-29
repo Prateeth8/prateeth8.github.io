@@ -181,8 +181,35 @@
 
         <!-- Projects Section -->
         <section id="projects" class="py-16">
-            <h2 class="section-title">Key Projects</h2>
+            <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-stone-900 mb-12">Key Projects</h2>
             <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="text-lg font-bold">Building VLA model for Manipulators (Supervised Approach)</h3>
+                        <p class="mt-2 text-base">Designed and implemented and Vision-Language-Action (VLA) foundation model inte-grating a multi-modal ResNet architecture with a Large Language Model (Gemma-2B).</p>
+                        <p class="mt-2 text-base">Formulated and implemented a custom weighted Mean Squared Error (MSE) loss function that applies a 2.0x penalty to end-effector/gripper inaccuracies, significantly improving the model’s fine-motor grasping capabilities. </p>
+                        <div class="mt-auto flex flex-wrap gap-2 pt-4">
+                            <a href="https://github.com/Prateeth8/VLA_manip" target="_blank" rel="noopener noreferrer" class="text-emerald-700 bg-emerald-100 hover:bg-emerald-200 font-medium px-4 py-2 rounded-lg transition text-sm shadow-sm">VLA Manipulator</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="text-lg font-bold">View Synthesis in Unbounded Scenes using Radiance Fields</h3>
+                        <p class="mt-2 text-base">Explored the theoretical limitations of standard MLPs in capturing high-frequency spatial details, successfully implementing Positional Encoding to map spatial (x, y, z) coordinates to high-dimensional frequency domains.</p>
+                        <p class="mt-2 text-base">Addressed the ”spectral bias” and infinite scale challenges of the KITTI and Mip-NeRF 360 datasets by applying non-linear spatial contraction formulas to normalize scene geometries. </p>
+                        <p class="mt-2 text-base"> Investigated inverse rendering techniques, deriving and implementing the discrete volumetric rendering equation (alpha-compositing and transmittance) to optimize continuous 3D density and color fields purely from 2D image supervision.</p>
+                        <div class="mt-auto flex flex-wrap gap-2 pt-4">
+                            <a href="https://github.com/Prateeth8/Nerf-unbounded" target="_blank" rel="noopener noreferrer" class="text-emerald-700 bg-emerald-100 hover:bg-emerald-200 font-medium px-4 py-2 rounded-lg transition text-sm shadow-sm">NeRF</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="text-lg font-bold">Building Visual Odometry module in CPP</h3>
+                        <p class="mt-2 text-base">Built a small orbSLAM based VO module with integration of pose graph optimization</p>
+                    </div>
+                </div>
                 <div class="card">
                     <div class="card-content">
                         <h3 class="text-lg font-bold">Noise Modeling in Dense Matching with DDPM(Thesis Extension)</h3>
